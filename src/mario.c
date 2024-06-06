@@ -1,11 +1,9 @@
 #include <stdio.h>
+#include "gets.h"
 
 int main(void)
 {
-  int size;
-
-  printf("Mario stairs size: ");
-  scanf("%i", &size);
+  int size = get_int("Mario stairs size: ");
 
   printf("\n");
 
